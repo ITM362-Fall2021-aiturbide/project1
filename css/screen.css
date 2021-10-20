@@ -4,7 +4,7 @@ body{
 #wrapper{
   max-width: 500px;
   width: 100%;
-  background-color: #BFD1E5;
+  background-color: #542344;
   margin: auto;
   padding: 30px;
   font-family: Copperplate, "Copperplate Gothic Light", fantasy;}
@@ -29,7 +29,7 @@ body{
 }
 #wrapper, #form, #input,{
   width: 100%;
-  border: 1px solid #d5dbd9;
+  border: 1px solid #bfd1e5;
   font-size: 15px;
   padding: 8px 10px;
   border-radius: 3px;
@@ -56,7 +56,7 @@ body{
 
 #wrapper, #form #input p{
    font-size: 14px;
-   color: #757575;
+   color: #bfd1e5;
 }
 #wrapper, #form, #input .check{
   width: 15px;
@@ -72,7 +72,7 @@ body{
 #wrapper, #form .input .check .checkmark{
   width: 15px;
   height: 15px;
-  border: 1px solid #fec107;
+  border: 1px solid #bfd1e5;
   display: block;
   position: relative;
 }
@@ -88,14 +88,14 @@ body{
   padding: 8px 10px;
   font-size: 15px;
   border: 0px;
-  background:  #fec107;
+  background:  #bfd1e5;
   color: #fff;
   cursor: pointer;
   border-radius: 3px;
 }
 
 #wrapper,#form, #input .btn:hover{
-  background: #ffd658;
+  background: #bfd1e5;
 }
 
 #wrapper, #form .inputfield:last-child{
