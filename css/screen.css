@@ -56,7 +56,6 @@ body{
 
 #wrapper, #form #input p{
    font-size: 14px;
-   color: #bfd1e5;
 }
 #wrapper, #form, #input .check{
   width: 15px;
@@ -89,7 +88,6 @@ body{
   font-size: 15px;
   border: 0px;
   background:  #bfd1e5;
-  color: #bfd1e5;
   cursor: pointer;
   border-radius: 3px;
 }
