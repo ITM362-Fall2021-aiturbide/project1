@@ -26,14 +26,89 @@ body{
    margin-right: 10px;
    font-size: 14px;
 }
+#wrapper, #form, #input,{
+  width: 100%;
+  border: 1px solid #d5dbd9;
+  font-size: 15px;
+  padding: 8px 10px;
+  border-radius: 3px;
+}
+
+#wrapper #form #input .textarea{
+  width: 100%;
+  height: 125px;
+}
+
+#wrapper #form #input .select{
+  position: relative;
+  width: 100%;
+  height: 37px;
+}
+
+#wrapper, #form{
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  border: 8px solid;
+}
+
+
+#wrapper, #form #input p{
+   font-size: 14px;
+   color: #757575;
+}
+#wrapper, #form, #input .check{
+  width: 15px;
+  height: 15px;
+  position: relative;
+  display: block;
+}
+#wrapper, #form .input .check input[type="checkbox"]{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#wrapper, #form .input .check .checkmark{
+  width: 15px;
+  height: 15px;
+  border: 1px solid #fec107;
+  display: block;
+  position: relative;
+}
+
+
+
+#wrapper, #form, #input .check input[type="checkbox"]:checked ~ .checkmark:before{
+  display: block;
+}
+
+#wrapper ,#form, #input .btn{
+  width: 100%;
+  padding: 8px 10px;
+  font-size: 15px;
+  border: 0px;
+  background:  #fec107;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+#wrapper,#form, #input .btn:hover{
+  background: #ffd658;
+}
+
+#wrapper, #form .inputfield:last-child{
+  margin-bottom: 0;
+}
+
 @media (max-width:420px) {
-  #wrapper #form #input{
+  #wrapper, #form, #input{
     align-items: flex-start;
   }
-  #wrapper #form #input label{
+  #wrapper, #form, #input label{
     margin-bottom: 5px;
   }
-  #wrapper #form #moreinfo{
+  #wrapper, #form, #moreinfo{
     flex-direction: row;
   }
 }
