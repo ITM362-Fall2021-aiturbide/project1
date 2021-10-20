@@ -7,13 +7,14 @@ body{
   background-color: #BFD1E5;
   margin: auto;
   padding: 30px;
-}
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy;}
 #wrapper, #title{
   font-size: 25px;
   font-weight: 700;
   background-color: #542344;
   text-align: center;
   margin-bottom: 25px;
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
 }
 #wrapper #form #input{
   margin-bottom: 15px;
