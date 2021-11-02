@@ -108,6 +108,10 @@ body{
   margin-bottom: 0;
 }
 
+#check{
+  float: left;
+}
+
 @media (max-width:420px) {
   #wrapper, #form, #input{
     align-items: flex-start;
