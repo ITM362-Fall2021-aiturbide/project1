@@ -2,6 +2,10 @@
 body{
   background-color: #bfd1e5;
 }
+.input {
+  font-family: 'Zen Kurenaido', sans-serif;
+  color: ##542344;
+}
 #wrapper{
   max-width: 500px;
   width: 100%;
