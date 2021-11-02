@@ -10,8 +10,7 @@ function validate_form ()
 
     return valid;
 }
-function clicked()
-{
+function clicked(){
   alert("Thank you for signing up!");
   return true;
 }
