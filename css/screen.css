@@ -99,6 +99,9 @@ body{
   cursor: pointer;
   border-radius: 3px;
 }
+.btn{
+  padding-top: 2px;
+}
 
 #wrapper,#form, .input .btn:hover{
   background: #bfd1e5;
