@@ -103,7 +103,7 @@ body{
 
 }
 .btn{
-  padding-top: 2px;
+  padding: 2px;
 }
 
 #wrapper,#form, .input .btn:hover{
