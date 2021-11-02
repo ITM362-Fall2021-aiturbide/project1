@@ -1,10 +1,12 @@
-document.getElementById("input").onclick = function() {
-  let allAreFilled = true;
-  document.getElementById("myForm").querySelectorAll("[required]").forEach(function(i) {
-    if (!allAreFilled) return;
-    if (!i.value) allAreFilled = false;
-  })
-  if (!allAreFilled) {
-    alert('Please fill out all the fields');
-  }
-};
+function validate_form ( )
+{
+    valid = true;
+
+    if ( document.contact_form.contact_name.value == "" )
+    {
+        alert ( "Please fill in the 'Your Name' box." );
+        valid = false;
+    }
+
+    return valid;
+}
