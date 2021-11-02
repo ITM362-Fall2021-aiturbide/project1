@@ -29,10 +29,10 @@ body{
 }
 
 #wrapper #form .input label{
-   width: 200px;
-   background-color: #bfd1e5;
-   margin-right: 10px;
-   font-size: 1em;
+  width: 200px;
+  background-color: #bfd1e5;
+  margin-right: 10px;
+  font-size: 1em;
 }
 #wrapper, #form, .input{
   width: 100%;
@@ -62,8 +62,8 @@ body{
 
 
 #form .input p{
-   font-size: 1em;
-   color: #bfd1e5;
+  font-size: 1em;
+  color: #bfd1e5;
 }
 #wrapper, #form, .input .check{
   width: 15px;
