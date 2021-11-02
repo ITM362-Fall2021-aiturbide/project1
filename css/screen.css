@@ -22,7 +22,6 @@ body{
   margin-bottom: 25px;
   font-family: 'Zen Kurenaido', sans-serif;}
 
-}
 #wrapper #form #input{
   margin-bottom: 15px;
   align-items: center;
@@ -99,8 +98,6 @@ body{
   cursor: pointer;
   border-radius: 3px;
   font-family: 'Zen Kurenaido', sans-serif;
-}
-
 }
 .btn{
   padding: 2px;
