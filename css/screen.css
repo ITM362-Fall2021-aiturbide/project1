@@ -98,6 +98,9 @@ body{
   background:  #bfd1e5;
   cursor: pointer;
   border-radius: 3px;
+  font-family: 'Zen Kurenaido', sans-serif;
+}
+
 }
 .btn{
   padding-top: 2px;
