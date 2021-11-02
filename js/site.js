@@ -1,8 +1,8 @@
-function validate_form ( )
+function validate_form ()
 {
     valid = true;
 
-    if (.input == "" )
+    if (document.getElementById('input').value == "" )
     {
         alert ( "Please fill in the 'Your Name' box." );
         valid = false;
