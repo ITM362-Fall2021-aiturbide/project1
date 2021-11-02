@@ -110,6 +110,7 @@ body{
 
 #check{
   float: left;
+  padding: 3px;
 }
 
 @media (max-width:420px) {
