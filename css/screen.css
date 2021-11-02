@@ -129,4 +129,19 @@ body{
   #wrapper, #form, #moreinfo{
     flex-direction: row;
   }
+  /* Tablets sizing */
+	@media screen and (min-width: 640px) {
+
+	body {
+    background-color:#FFDBE9;
+		font-size:1.3em; }
+
+/* Desktops sizing */
+	@media screen and (min-width: 996px) {
+
+	body {
+    background-color:#BEA9DF; 
+  }
+
+		}
 }
